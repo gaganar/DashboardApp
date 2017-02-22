@@ -25,7 +25,7 @@ namespace DashboardApp.Controllers
         }
         catch (Exception ex)
         {
-            System.Diagnostics.Trace.TraceError("If you're seeing this, something bad happened {1}", ex);
+            System.Diagnostics.Trace.TraceError("If you're seeing this, something bad happened {0}", ex);
             throw ex;
         }
     }
